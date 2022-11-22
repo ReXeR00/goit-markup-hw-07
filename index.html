@@ -7,9 +7,12 @@
     <meta name="description" content="WebStudio" />
     <meta name="keywords" content="HTML" />
     <meta name="author" content="Emil Nowak" />
-
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"> 
-    <link href="./css/style.css" rel="stylesheet" />
+
+    <link href="./css/main.min.css" rel="stylesheet" type="text/css" />
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,58 +60,61 @@
     <main>
       <section class="menu">
         <div class="container">
-          <h1 class="text_in_header">
+          <h1 class="text_in_baner">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button class="button" type="button" data-modal-open>Zamów usługe</button>
+          <button class="button_in_baner" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
       <section >
-        <ul class="icon_list list">
-          <li  class="p-icon"> <svg width="70px" height="70px"><use href="./images/icons.svg#antenna1"></use></svg> </li>
-          <li class="p-icon"><svg width="70px" height="70px"><use href="./images/icons.svg#clock1"></use></svg>  </li>
-          <li class="p-icon"><svg width="70px" height="70px"><use href="./images/icons.svg#diagram1"></use></svg>  </li>
-          <li class="p-icon"><svg width="70px" height="70px"><use href="./images/icons.svg#astronaut1"></use></svg>  </li>
+   
+          
      
-      </ul>
 
       </section>
       
-        <section class="advantages">
+        <section>
           <div class="container">
-            <ul class="list flex-first">
-              <li>
-                <h4 class="lorem_ipsum">LOREM IPSUM</h4>
+            <div class="list flex-card">
+              <div>
+                <div  class="card-icon"> <svg  width="70px" height="70px"><use href="./images/icons.svg#antenna1"></use></svg> </div>
+                <h4 class="lorem_ipsum_title">LOREM IPSUM</h4>
                 <p class="lorem_ipsum_text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
-              </li>
+              </div>
 
-              <li>
-                <h4 class="lorem_ipsum">LOREM IPSUM</h4>
-                <p class="lorem_ipsum_text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
-                </p>
-              </li>
+              <div>
+                <div class="card-icon"><svg width="70px" height="70px"><use href="./images/icons.svg#clock1"></use></svg>  </div>
 
-              <li>
-                <h4 class="lorem_ipsum">LOREM IPSUM</h4>
+                <h4 class="lorem_ipsum_title">LOREM IPSUM</h4>
                 <p class="lorem_ipsum_text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
-              </li>
-              <li>
-                <h4 class="lorem_ipsum">LOREM IPSUM</h4>
+              </div>
+
+              <div>
+                <div class="card-icon"><svg width="70px" height="70px"><use href="./images/icons.svg#diagram1"></use></svg>  </div>
+
+                <h4 class="lorem_ipsum_title">LOREM IPSUM</h4>
                 <p class="lorem_ipsum_text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
-              </li>
-            </ul>
+              </div>
+              <div>
+                <div class="card-icon"><svg width="70px" height="70px"><use href="./images/icons.svg#astronaut1"></use></svg>  </div>
+
+                <h4 class="lorem_ipsum_title">LOREM IPSUM</h4>
+                <p class="lorem_ipsum_text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+              </div>
+            </div>
         
         </section>
 

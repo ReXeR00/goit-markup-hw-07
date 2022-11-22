@@ -1,0 +1,28 @@
+.agency_second {
+  line-height: 1.1;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  position: relative;
+
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
+.portfolio_second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+  text-decoration: none;
+  position: relative;
+
+  &:hover {
+    color: var(--main-color);
+  }
+}
