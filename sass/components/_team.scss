@@ -1,11 +1,11 @@
-.team_section {
+.team__section {
   height: 648px;
   background-color: rgba(245, 244, 250, 1);
   margin-left: auto;
   margin-right: auto;
 }
 
-.team_title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -17,13 +17,13 @@
   padding-top: 94px;
 }
 
-.team_list {
+.team__list {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-.john-doe {
+.team__card {
   width: 270px;
   height: 428px;
   background: var(--white-color);
@@ -32,7 +32,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.JD {
+.team__card--title {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -42,15 +42,22 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team__card--work {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--gray-color);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
-.list_JD_icon {
+.team__card--list {
   justify-content: space-between;
   display: flex;
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.icon_in_JD {
+.team__card--icon {
   cursor: pointer;
   margin: 0%;
   width: 44px;
@@ -63,12 +70,4 @@
     background-color: var(--main-color);
     fill: var(--white-color);
   }
-}
-
-.work {
-  font-size: 16px;
-  line-height: 1.2;
-  color: var(--gray-color);
-  text-align: center;
-  letter-spacing: 0.03em;
 }

@@ -1,11 +1,23 @@
-.our_team_list {
+.clients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--black-color);
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+
+.clients__list {
   display: flex;
   flex-direction: row;
   gap: 30px;
   padding-bottom: 94px;
 }
 
-.our_team_icon {
+.clients__icon {
   cursor: pointer;
   width: 170px;
   border: 1px solid #afb1b8;

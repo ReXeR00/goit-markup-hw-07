@@ -1,21 +1,16 @@
-header {
-  display: block;
-}
-
 .header {
   margin: auto;
   width: 1600px;
-  height: 80px;
   border-bottom: 1px solid #ececec;
   background-color: var(--white-color);
 }
 
-.header_flex {
+.header__flex {
   display: flex;
   height: 80px;
 }
 
-.web {
+.header__web {
   padding-left: 215px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -28,7 +23,7 @@ header {
   cursor: pointer;
   letter-spacing: 0.03em;
 }
-.studio {
+.header__studio {
   color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -45,7 +40,7 @@ header {
   }
 }
 
-.nav_flex {
+.header__nav--flex {
   padding-left: 93px;
   padding-top: 32px;
   display: flex;
@@ -53,13 +48,13 @@ header {
   margin: 0;
 }
 
-.nav-list {
+.header__nav-list {
   position: relative;
   overflow: hidden;
   z-index: 2;
 }
 
-.agency {
+.header__nav--agency {
   line-height: 1.1;
   font-weight: 500;
   font-size: 14px;
@@ -73,7 +68,7 @@ header {
   }
 }
 
-.accentuation {
+.header__nav--accentuation {
   z-index: 1;
   margin: auto;
   position: absolute;
@@ -85,7 +80,7 @@ header {
   bottom: 0px;
 }
 
-.portfolio {
+.header__nav--portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -100,7 +95,7 @@ header {
   }
 }
 
-.contact {
+.header__nav--contact {
   line-height: 1.1;
   font-weight: 500;
   font-size: 14px;
@@ -115,7 +110,7 @@ header {
   }
 }
 
-.contact_list {
+.header__contact--list {
   cursor: pointer;
   display: flex;
   padding-left: 371px;
@@ -128,7 +123,7 @@ header {
   }
 }
 
-.mail {
+.header__mail {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -147,7 +142,7 @@ header {
   }
 }
 
-.mail_icon_header {
+.header__mail--icon {
   margin-right: 10px;
 
   &:hover .mail {
@@ -155,7 +150,7 @@ header {
   }
 }
 
-.phone {
+.header__phone {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -174,7 +169,7 @@ header {
   }
 }
 
-.phone_icon_header {
+.header__phone--icon {
   margin-right: 10px;
 
   &:hover .phone {

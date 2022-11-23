@@ -1,6 +1,12 @@
 .footer {
   background-color: rgba(47, 48, 58, 1);
   height: 252px;
+
+  // style footer
+
+  .footer__flex {
+    display: flex;
+  }
 }
 
 .footer .container {
@@ -8,10 +14,7 @@
   justify-content: start;
 }
 
-.footer_socialmedia {
-  display: flex;
-}
-.footer_logo {
+.footer__logo {
   padding-top: 60px;
   padding-bottom: 20px;
 
@@ -20,7 +23,7 @@
   }
 }
 
-.logo_footer_one {
+.footer__logo--web {
   font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.2;
@@ -28,15 +31,15 @@
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-.logo_footer_two {
+.footer__logo--studio {
   color: var(--white-color);
 }
 
-.footer_address {
+.footer__list {
   padding-bottom: 9px;
 }
 
-.address {
+.footer__list--addres {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
@@ -44,11 +47,7 @@
   color: var(--white-color);
 }
 
-.footer_mail {
-  padding-bottom: 9px;
-}
-
-.email {
+.footer__list--email {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -61,7 +60,7 @@
   }
 }
 
-.footer_phone {
+.footer__list--phone {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -74,20 +73,14 @@
   }
 }
 
-.list_footer_icon {
-  justify-content: space-between;
-  display: flex;
-  width: 206px;
-}
-
-.div_social {
+.footer__socialmedia {
   width: 206px;
   height: 80px;
 
   padding-top: 72px;
   padding-left: 70px;
 }
-.add_to_us {
+.footer__socialmedia--join {
   font-family: var(--main-font);
   font-weight: 700;
   line-height: 1.9;
@@ -97,7 +90,13 @@
   padding-bottom: 20px;
 }
 
-.social_footer_icon {
+.footer__socialmedia--list {
+  justify-content: space-between;
+  display: flex;
+  width: 206px;
+}
+
+.footer__socialmedia--list-icon {
   cursor: pointer;
   margin: 0%;
   width: 44px;
@@ -114,14 +113,14 @@
   }
 }
 
-.newsletter {
+.footer__newsletter {
   width: 570px;
   height: 86px;
   padding-left: 171px;
   padding-top: 72px;
 }
 
-.join_to_newsletter {
+.footer__newsletter--join {
   font: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -131,14 +130,14 @@
   color: var(--white-color);
 }
 
-.newsletter_box {
+.footer__newsletter--box {
   margin-top: 20px;
   display: inline-flex;
   justify-content: center;
   align-content: center;
 }
 
-.newsletter_box input {
+.footer__newsletter--box input {
   width: 358px;
   padding: 15px;
   padding-left: 16px;
@@ -162,7 +161,7 @@
   }
 }
 
-.newsletter_btn {
+.footer__newsletter--button {
   width: 200px;
   height: 50px;
   display: flex;
@@ -181,6 +180,6 @@
   fill: var(--white-color);
 }
 
-.newsletter_btn > svg {
+.footer__newsletter--button > svg {
   margin-left: 24px;
 }
