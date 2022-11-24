@@ -3,8 +3,6 @@
   width: 200px;
   height: 50px;
 
- 
-
   // style for button__baner
   color: var(--white-color);
   background: var(--main-color);
@@ -20,7 +18,6 @@
   //  Modifiers button__baner
   margin: auto;
   display: block;
-
 
   &:hover {
     background-color: var(--main-color);

@@ -5,38 +5,42 @@
   padding-top: 94px;
   margin: auto;
 }
-.card__icon {
-  width: 270px;
-  border-radius: 4px;
 
-  display: flex;
-  justify-content: center;
-  background-color: var(--background-color);
+.lorem {
+  & .card__icon {
+    width: 270px;
+    border-radius: 4px;
 
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.card__lorem_ipsum--title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
 
-  text-transform: uppercase;
-  color: var(--black-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 
-  padding-top: 30px;
-  margin-left: auto;
-}
+  & .lorem__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
 
-.card__lorem_ipsum--text {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-color);
 
-  color: var(--gray-color);
+    padding-top: 30px;
+    margin-left: auto;
+  }
 
-  margin-top: 10px;
-  margin-bottom: 0;
-  margin-left: auto;
+  & .lorem__text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: var(--gray-color);
+
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
 }

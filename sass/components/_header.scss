@@ -1,178 +1,176 @@
 .header {
   margin: auto;
-  width: 1600px;
+  max-width: 1600px;
   border-bottom: 1px solid #ececec;
   background-color: var(--white-color);
-}
 
-.header__flex {
-  display: flex;
-  height: 80px;
-}
+  &__flex {
+    display: flex;
+    height: 80px;
+  }
 
-.header__web {
-  padding-left: 215px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--main-color);
-  text-decoration: none;
-  cursor: pointer;
-  letter-spacing: 0.03em;
-}
-.header__studio {
-  color: var(--black-color);
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-
-  &:hover {
+  &__web {
+    padding-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--main-color);
     text-decoration: none;
-    color: var(--main-color);
+    cursor: pointer;
+    letter-spacing: 0.03em;
   }
-}
+  &__studio {
+    color: var(--black-color);
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 
-.header__nav--flex {
-  padding-left: 93px;
-  padding-top: 32px;
-  display: flex;
-  gap: 46px;
-  margin: 0;
-}
-
-.header__nav-list {
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
-}
-
-.header__nav--agency {
-  line-height: 1.1;
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--black-color);
-  letter-spacing: 0.02em;
-  position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover {
-    color: var(--main-color);
+    &:hover {
+      text-decoration: none;
+      color: var(--main-color);
+    }
   }
-}
 
-.header__nav--accentuation {
-  z-index: 1;
-  margin: auto;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background: #2196f3;
-  border-radius: 2px;
-  margin-top: 27px;
-  bottom: 0px;
-}
-
-.header__nav--portfolio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--black-color);
-  text-decoration: none;
-  position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover {
-    color: var(--main-color);
+  &__nav--flex {
+    padding-left: 93px;
+    padding-top: 32px;
+    display: flex;
+    gap: 46px;
+    margin: 0;
   }
-}
 
-.header__nav--contact {
-  line-height: 1.1;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  color: var(--black-color);
-  text-decoration: none;
-  position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover {
-    color: var(--main-color);
+  &r__nav-list {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
   }
-}
 
-.header__contact--list {
-  cursor: pointer;
-  display: flex;
-  padding-left: 371px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  gap: 50px;
+  &__nav--agency {
+    line-height: 1.1;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--black-color);
+    letter-spacing: 0.02em;
+    position: relative;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
-    color: var(--main-color);
+    &:hover {
+      color: var(--main-color);
+    }
   }
-}
 
-.header__mail {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: var(--gray-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.19;
-  letter-spacing: 0.02em;
-  fill: #757575;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover {
-    color: var(--main-color);
-    fill: var(--main-color);
+  &__nav--accentuation {
+    margin: auto;
+    width: 100%;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+    margin-top: 27px;
+    bottom: 0px;
   }
-}
 
-.header__mail--icon {
-  margin-right: 10px;
+  &__nav--portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+    text-decoration: none;
+    position: relative;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover .mail {
-    color: var(--main-color);
+    &:hover {
+      color: var(--main-color);
+    }
   }
-}
 
-.header__phone {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.1;
-  text-decoration: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--gray-color);
-  fill: #757575;
+  &__nav--contact {
+    line-height: 1.1;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+    text-decoration: none;
+    position: relative;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
-    color: var(--main-color);
-    fill: var(--main-color);
+    &:hover {
+      color: var(--main-color);
+    }
   }
-}
 
-.header__phone--icon {
-  margin-right: 10px;
+  &__contact--list {
+    cursor: pointer;
+    display: flex;
+    padding-left: 371px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 50px;
 
-  &:hover .phone {
-    color: var(--main-color);
+    &:hover {
+      color: var(--main-color);
+    }
+  }
+
+  &__mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--gray-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.19;
+    letter-spacing: 0.02em;
+    fill: #757575;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: var(--main-color);
+      fill: var(--main-color);
+    }
+  }
+
+  &__mail--icon {
+    margin-right: 10px;
+
+    &:hover .mail {
+      color: var(--main-color);
+    }
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--gray-color);
+    fill: #757575;
+
+    &:hover {
+      color: var(--main-color);
+      fill: var(--main-color);
+    }
+  }
+
+  &__phone--icon {
+    margin-right: 10px;
+
+    &:hover .phone {
+      color: var(--main-color);
+    }
   }
 }
